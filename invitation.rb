@@ -1,7 +1,6 @@
  def invitations(host_name = "Harry Potter", guest_name = "Hermoine", party_name = "Best Halloween Party Ever", date = "October 31", time = "6pm")
   puts "Hi, you've been invited to a party! What is your name?"
   
-  run_file("./invitation.rb")
   
 guest_name = gets.chomp 
 
